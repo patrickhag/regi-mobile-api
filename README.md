@@ -32,39 +32,42 @@ The Phone Registry Web App is a PERN stack application designed for storing user
 - Prisma
 - HTML/CSS
 - JavaScript
+- Yarn (Package Manager)
+- Vite
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js (version X.X.X)
-- PostgreSQL (version X.X.X)
+- Node.js (version 18.6.0)
+- PostgreSQL (version 13.3.0)
 
 ### Installation
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/phone-registry-web-app.git
+git clone [https://github.com/your-username/phone-registry-web-app.git](https://github.com/patrickhag/eRegistiify.git)
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd phone-registry-web-app
+cd eRegistiify
 ```
 
 3. Install server dependencies:
 
 ```bash
-npm install
+cd api
+yarn install
 ```
 
 4. Install client dependencies:
 
 ```bash
 cd client
-npm install
+yarn install
 ```
 
 5. Set up PostgreSQL database:
@@ -81,14 +84,11 @@ npx prisma migrate dev
 7. Start the development server:
 
 ```bash
-npm run dev
+yarn dev
 ```
 
-8. Open your web browser and access the application at `http://localhost:3000`.
+8. Open your web browser and access the application at `http://localhost:5173`.
 
-## API Documentation
-
-The API documentation provides details about the available endpoints and their functionalities. Please refer to the [API Documentation](./API_DOCUMENTATION.md) for more information.
 
 ## Contributing
 
